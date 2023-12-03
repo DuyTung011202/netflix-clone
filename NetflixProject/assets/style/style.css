@@ -78,10 +78,26 @@ form {
 }
 
 .home-background {
-  background-image: url(.././../entities/thumbnails-real-images/2012.jpg);
+  background-image: url(.././../entities/thumbnails-real-images/nfs.jpg);
   background-size: cover;
 }
+
 .header-icon {
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
+}
+
+.content-title {
+  margin-top: 200px;
+}
+
+.btn-play,
+.btn-mute {
+  background-color: rgba(128, 128, 128, 0.3);
+  width: 100px;
+}
+
+.btn-play:hover,
+.btn-mute:hover {
+  background-color: rgba(128, 128, 128, 0.7);
 }
