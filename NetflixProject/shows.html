@@ -20,7 +20,7 @@
   <body>
     <div class="container-fluid p-0">
       <div class="home-background vh-100">
-        <div class="row header px-5">
+        <div class="row header px-5 m-0">
           <div class="d-flex col-8 align-items-center">
             <img
               src="./assets/images/netflix.png"
@@ -29,39 +29,50 @@
               class="me-4"
             />
             <ul class="d-flex m-0">
-              <li class="list-unstyled me-4 text-white">Home</li>
-              <li class="list-unstyled me-4 text-white">TV Shows</li>
-              <li class="list-unstyled me-4 text-white">Movies</li>
+              <li class="list-unstyled me-4 text-white">
+                <a href="./index.html" class="text-white">Home</a>
+              </li>
+              <li class="list-unstyled me-4 text-white">
+                <a href="./shows.html" class="text-white">TV Shows</a>
+              </li>
+              <li class="list-unstyled me-4 text-white">
+                <a href="./movies.html" class="text-white">Movies</a>
+              </li>
             </ul>
           </div>
           <div class="d-flex col-4 align-items-center justify-content-end">
             <div class="header-icon">
-              <img
-                src="./assets/icon/icons8-search-50.png"
-                alt="search-icon"
-                width="20"
-                height="20"
-              />
+              <a href="./search.html"
+                ><img
+                  src="./assets/icon/icons8-search-50.png"
+                  alt="search-icon"
+                  width="20"
+                  height="20"
+              /></a>
             </div>
             <div class="header-icon ms-3">
-              <img
-                src="./assets/icon/icons8-person-50.png"
-                alt="person-icon"
-                width="20"
-                height="20"
-              />
+              <a href="./profile.html">
+                <img
+                  src="./assets/icon/icons8-person-50.png"
+                  alt="person-icon"
+                  width="20"
+                  height="20"
+                />
+              </a>
             </div>
             <div class="header-icon ms-3">
-              <img
-                src="./assets/icon/icons8-log-out-26.png"
-                alt="logout-icon"
-                width="20"
-                height="20"
-              />
+              <a href="./signin.html">
+                <img
+                  src="./assets/icon/icons8-log-out-26.png"
+                  alt="logout-icon"
+                  width="20"
+                  height="20"
+                />
+              </a>
             </div>
           </div>
         </div>
-        <div class="row px-5 content-title">
+        <div class="row px-5 content-title me-0">
           <h1 class="text-white fw-bold mb-3">Need for Speed</h1>
           <p class="text-white fw-bold">Season 1, Episode 1</p>
           <div class="d-flex">
